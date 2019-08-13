@@ -9,7 +9,6 @@ def hello(array)
   end
 end
 
-binding.pry
 hello(["Tim", "Tom", "Jim"]) do |name| 
   new_array.push("Hi, #{name}")
   return new_array
