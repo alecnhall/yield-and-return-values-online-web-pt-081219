@@ -12,5 +12,5 @@ end
 hello(["Tim", "Tom", "Jim"]) do |name| 
   new_array = []
   new_array.push("Hi, #{name}")
-  return new_array
+  p new_array
 end
